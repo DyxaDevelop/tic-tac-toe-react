@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
 .App {
   text-align: center;
 }
@@ -14,6 +17,7 @@
 }
 
 .App-header {
+  font-family: 'Staatliches', cursive;
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -35,4 +39,67 @@
   to {
     transform: rotate(360deg);
   }
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 470px;
+  height: 460px;
+  align-content: stretch;
+}
+.ttt {
+  width: 150px;
+  height: 150px;
+  border: 2px solid #34495e;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 150px;
+  cursor: pointer;
+}
+.button-group{
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.player {
+  font-family: 'Staatliches', cursive;
+  width: 100px;
+  background-color:#34495e;
+  border: 0;
+  color: #fff;
+  border-radius: 5px;
+  height: 50px;
+  font-size: 30px;
+  border: 2px solid transparent;
+  transition: all ease-in 0.2s;
+  cursor: pointer;
+}
+.player:hover{
+  background-color:transparent;
+  color: #34495e;
+  border: 2px solid #34495e;
+}
+.new-game {
+  font-family: 'Staatliches', cursive;
+  padding: 15px;
+  background-color:#34495e;
+  border: 0;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 30px;
+  border: 2px solid transparent;
+  transition: all ease-in 0.2s;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.new-game:hover{
+  background-color:transparent;
+  color: #34495e;
+  border: 2px solid #34495e;
+}
+p {
+  margin: 10px;
 }
